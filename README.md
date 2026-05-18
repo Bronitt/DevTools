@@ -14,7 +14,8 @@ The core feature of the mod (currently) is a highly customizable main menu butto
 * **Instant Dev-Ready Environment:** The created world is pre-configured with the settings for debugging and testing:
     * **Game Mode:** Creative with Cheats/Commands enabled.
     * **World Type:** Superflat (`FLAT`) for a clean testing slate.
-    * **Game Rules:** * `doDaylightCycle = false` (Locked at noon / time 6000)
+    * **Game Rules:**
+        * `doDaylightCycle = false` (Locked at noon / time 6000)
         * `doMobSpawning = false` (No annoying mobs interfering with tests)
         * `doWeatherCycle = false` (Permanently clear weather)
 
