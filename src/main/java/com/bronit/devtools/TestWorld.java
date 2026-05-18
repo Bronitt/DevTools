@@ -18,8 +18,6 @@ import java.util.Random;
 
 public class TestWorld {
 
-    public TestWorld() {}
-
     private static final Logger LOGGER = DevTools.getLogger(TestWorld.class.getSimpleName());
 
     public static final int TEST_WORLD_BUTTON_ID = DevConfig.testWorldCategory.testWorldButtonPosition == 2 ? 14 : DevConfig.testWorldCategory.testWorldButtonId;
