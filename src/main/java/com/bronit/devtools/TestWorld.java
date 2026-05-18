@@ -93,8 +93,9 @@ public class TestWorld {
     }
 
     @SubscribeEvent
-    public static void onButtonPressed(GuiScreenEvent.ActionPerformedEvent.Post event) {
+    public static void onRealmsButtonPressed(GuiScreenEvent.ActionPerformedEvent.Pre event) {
         if (event.getGui() instanceof GuiMainMenu && event.getButton().id == TEST_WORLD_BUTTON_ID) {
+            event.setCanceled(true);
             createAndLaunchTestWorld();
         }
     }
