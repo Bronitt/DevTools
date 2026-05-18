@@ -11,7 +11,7 @@ public class DevConfig {
     public static final TestWorldCategory testWorldCategory = new TestWorldCategory();
 
     public static class TestWorldCategory {
-        @Config.Comment("If true, a “Create Test World” button will appear in the main menu")
+        @Config.Comment("If true, a 'Create Test World' button will appear in the main menu")
         public boolean enableTestWorldButton = true;
 
         @Config.Comment("If true, the mod will only work in a deobfuscated environment (inside an IDE / Gradle workspace).")

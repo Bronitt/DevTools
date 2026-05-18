@@ -24,6 +24,9 @@ The core feature of the mod (currently) is a highly customizable main menu butto
 The mod provides a highly flexible configuration file (`devtools.cfg`) with full in-game GUI config support:
 
 ```java
+// If true, a “Create Test World” button will appear in the main menu
+public boolean enableTestWorldButton = true;
+
 // If true, the mod will only work in a deobfuscated environment (inside an IDE / Gradle workspace).
 public boolean devEnvironmentOnly = true;
 
